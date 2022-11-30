@@ -17,5 +17,12 @@ class Cube {
 }
 
 module.exports = {
-    Cube:Cube
+    Cube:Cube,
+    triangle:triangle
+}
+
+class triangle{
+    constructor(length){
+        this.length = length;
+    }
 }
